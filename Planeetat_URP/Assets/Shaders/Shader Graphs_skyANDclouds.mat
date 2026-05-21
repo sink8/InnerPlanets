@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1830709636753497648
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_skyANDclouds
+  m_Shader: {fileID: -6465566751694194690, guid: 9f3fff060ec51bb4a9c42b877cedfec1,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: _starpower
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_122a3acd258449128b91715d5983406a_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudAmount: 1.55
+    - _CloudEdge: 0.54
+    - _CloudEdge_1: 2.32
+    - _CloudEdge_2: 0.17
+    - _CloudEdge_3: -3.35
+    - _CloudHeight: 0.39
+    - _Cloud_Distance: 2.38
+    - _Cloud_Distance_1: 0.6
+    - _Cloud_Distance_2: 1.62
+    - _Cloud_Distance_3: 2.16
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RotateCloudsFloat: 1.29
+    - _starheight: 618.7
+    - _starpower: 33.1
+    - _sunsize: 0.42
+    m_Colors:
+    - _CloudColor: {r: 0.8113208, g: 0.15024614, b: 0.07271269, a: 0}
+    - _CloudXY: {r: -0.71, g: 16.9, b: 0, a: 0}
+    - _Color: {r: 335.3313, g: 298.58267, b: 0, a: 0}
+    - _NormalizeAxis: {r: 0, g: 1.52, b: 0, a: 0}
+    - _RotateCloudsVector: {r: 1.2, g: 0.14, b: 0.02, a: 0}
+    - _RotateColors: {r: 293.65, g: 49.3, b: -22.2, a: 0}
+    - _SunColor: {r: 0, g: 7.1755695, b: 26.017023, a: 0}
+    - _UpColor: {r: 0.8490566, g: 0.20425417, b: 0.4612408, a: 0}
+    - _downColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0}
+    - _sundirection: {r: 1.14, g: -0.03, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
